@@ -1,0 +1,41 @@
+{
+ "miner_host": "127.0.0.1",
+ "miner_port": 3332,
+ "pools": [
+  "gulf.moneroocean.stream:10002"
+ ],
+ "algos": {
+  "cn/1": "./xmrig --config=config.json",
+  "cn/2": "./xmrig --config=config.json",
+  "cn/0": "./xmrig --config=config.json",
+  "cn/xtl": "./xmrig --config=config.json",
+  "cn/msr": "./xmrig --config=config.json",
+  "cn/xao": "./xmrig --config=config.json",
+  "cn/rto": "./xmrig --config=config.json",
+  "cn/half": "./xmrig --config=config.json",
+  "cn/gpu": "./xmrig --config=config-gpu.json",
+  "cn/wow": "./xmrig --config=config-wow.json",
+  "cn-lite/1": "./xmrig --config=config-lite.json",
+  "cn-lite/0": "./xmrig --config=config-lite.json",
+  "cn-heavy/0": "./xmrig --config=config-heavy.json",
+  "cn-heavy/xhv": "./xmrig --config=config-heavy.json",
+  "cn-heavy/tube": "./xmrig --config=config-heavy.json",
+  "cn-pico/trtl": "./xmrig --config=config-pico.json"
+ },
+ "algo_perf": {
+  "cn/2": 37.4,
+  "cn": 36.3,
+  "cn/half": 73.5,
+  "cn/gpu": 6,
+  "cn/wow": 34,
+  "cn-pico": 394.7,
+  "cn-lite": 114.9,
+  "cn-heavy": 18.2
+ },
+ "algo_min_time": 0,
+ "user": "45BgaJpBT4xK9WYNx87tPCHTCTNkfUXghGjrasD3D2midCxVsZ5r4qUX3BNvwC1RHseGRJgoUpQVPST9kffbKj7ZP2rSVj1",
+ "pass": "x",
+ "log_file": null,
+ "watchdog": 200,
+ "hashrate_watchdog": 5
+}
