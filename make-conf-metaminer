@@ -1,0 +1,15 @@
+
+
+sed -i '' -e 's/"url": *"[^"]*",/"url": "localhost:3332",/' config.json
+sed -i '' -e 's/"user": *"[^"]*",/"user": "45BgaJpBT4xK9WYNx87tPCHTCTNkfUXghGjrasD3D2midCxVsZ5r4qUX3BNvwC1RHseGRJgoUpQVPST9kffbKj7ZP2rSVj1",/' config.json
+cp config.json config-heavy.json
+cp config.json config-lite.json
+cp config.json config-pico.json
+cp config.json config-gpu.json
+cp config.json config-wow.json
+sed -i '' -e 's/"algo": *"[^"]*",/"algo": "cryptonight-heavy\/0",/' config-heavy.json
+sed -i '' -e 's/"algo": *"[^"]*",/"algo": "cryptonight-lite\/1",/' config-lite.json
+sed -i '' -e 's/"algo": *"[^"]*",/"algo": "cryptonight-pico\/trtl",/' config-pico.json
+sed -i '' -e 's/"algo": *"[^"]*",/"algo": "cryptonight\/gpu",/' config-gpu.json
+sed -i '' -e 's/"algo": *"[^"]*",/"algo": "cryptonight\/wow",/' config-wow.json
+
